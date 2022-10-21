@@ -6,7 +6,6 @@ def fun(*numbers):
     # pour chaque nombre saisi en paramètre, l'enregistrer dans la liste
     for number in numbers:
         myList.append(number)
-        print(myList)
 
     # trier ma liste (ordre croissant par défaut)
     myList.sort()
